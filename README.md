@@ -14,3 +14,8 @@ Adding Two numbers with MVC.
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/2236f74f-6c2c-451a-99ff-1378e4d92525)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/1545071b-4d6a-4af3-9c03-1bbbe9fc0d39)
 
+RequestParam :
+To remove usage of req.getParameter.
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/47fadeab-8a49-4816-b5f0-7a6db1bc3100)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/1c9f0fee-b874-4e95-a93d-626fb22fdfee)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/ff9a330d-69de-43c9-ab96-09679df1321c)
