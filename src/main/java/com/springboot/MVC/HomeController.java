@@ -16,7 +16,7 @@ public class HomeController {
 	public String home()
 	{
 		System.out.println("Home Controller is called.");
-		return "index.jsp";//Telling Dispatcher Servlet that we need to call index.jsp --> Downloading the jsp page.
+		return "index";//Telling Dispatcher Servlet that we need to call index.jsp --> Downloading the jsp page.
 	}
 	
 	/*@RequestMapping("add")
@@ -48,7 +48,7 @@ public class HomeController {
 		System.out.println("Add Controller3 is called.");
 		ModelAndView mv = new ModelAndView();
 		//Use ModelAndView to eliminate the use of HttpSession. Set view and model data in one go.
-		mv.setViewName("result.jsp");
+		mv.setViewName("result");
 		//View set. or ModelAndView mv = new ModelAndView("result.jsp"); -- Can be passed in Parameter itself.
 		int num3 = i + j;
 		mv.addObject("num3", num3);//Model data object
