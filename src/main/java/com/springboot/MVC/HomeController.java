@@ -16,6 +16,13 @@ import com.springboot.model.Alien;
 
 @Controller
 public class HomeController {
+	
+	@ModelAttribute
+	public void ModelData(Model m)
+	{
+		m.addAttribute("name", "Pranjali");
+		//before calling any request mapping this will be called and name will be present from the beginning and can be fetched in current session.
+	}
 	@RequestMapping("/")
 	public String home()
 	{

@@ -9,5 +9,6 @@
 <body>
 	<!--Addition is : ${num3}  --><!-- JSTL -->
 	Alien Data : ${alien}
+	Welcome back ${name}
 </body>
 </html>
