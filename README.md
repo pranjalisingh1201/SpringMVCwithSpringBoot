@@ -42,4 +42,11 @@ Model and ModelMap Implementation:
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/24a8e969-a6df-4020-bfa7-472e48af1435)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/c9b6ef97-7214-4b9b-aedc-993ce664bda7)
 
+Need Of Model Attribute :
+
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/fd1af304-bde9-4591-b19e-d82f86239e7c)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/bf808f59-c50a-4cc1-be66-7370dbbfa2c9)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/e11b6704-7b2f-4451-a837-fde2ecf7fae9)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/a90d871f-b138-409b-b6eb-b9a8d995b0b6)
+
 
