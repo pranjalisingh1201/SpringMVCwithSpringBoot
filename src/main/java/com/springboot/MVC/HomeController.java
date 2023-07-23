@@ -7,6 +7,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -67,7 +68,7 @@ public class HomeController {
 		return "result";
 	}
 	
-	@RequestMapping("addAlien")
+	/*@RequestMapping("addAlien")
 	public String addAlien(@RequestParam("aid")int aid, @RequestParam("aname")String aname, Model m)
 	{
 		System.out.println("Add Controller5 is called.");
@@ -76,7 +77,15 @@ public class HomeController {
 		a.setAname(aname);
 		m.addAttribute("alien", a);//Model data object
 		return "result";
-	}
+	}*/
 
+	@RequestMapping("addAlien")
+	public String addAlien(@ModelAttribute("alien") Alien a)
+	{
+		System.out.println("Add Controller5 is called.");
+		//Model Attribute adds data to alien object on its own and sets it as a model too , but if object name doesn't match then we can 
+		//change it by @ModelAttribute("alien") Alien a , or if we remove @ModelAttribute as a whole and Alien class matches name with alien.
+		return "result";
+	}
 
 }
