@@ -36,3 +36,10 @@ Remove the Hard-coded part from the view names, create a new views folder, and t
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/ba1f5e9e-b43b-4dbc-bf3a-c862b1e1c836)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/c7a9d45f-18a9-43d3-a0b5-20a4e51471d5)
 
+Model and ModelMap Implementation:
+
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/0a2aed6b-a543-4a12-81e4-33c5512cbc0f)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/24a8e969-a6df-4020-bfa7-472e48af1435)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/c9b6ef97-7214-4b9b-aedc-993ce664bda7)
+
+
