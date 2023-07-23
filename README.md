@@ -19,3 +19,9 @@ To remove usage of req.getParameter.
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/47fadeab-8a49-4816-b5f0-7a6db1bc3100)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/1c9f0fee-b874-4e95-a93d-626fb22fdfee)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/ff9a330d-69de-43c9-ab96-09679df1321c)
+
+
+ModelAndView Implementations:
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/d42ade96-3f68-46d7-9f14-f38f6e017cd9)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/90402597-af16-4d12-aa9e-51965dd99f62)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/bf828345-d291-4c4c-a4c9-ac9b1712a896)
