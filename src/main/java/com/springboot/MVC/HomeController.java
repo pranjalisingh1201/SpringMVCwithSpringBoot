@@ -8,6 +8,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
@@ -30,7 +31,7 @@ public class HomeController {
 		return "result.jsp";//or return "result.jsp?num3"+num3;
 	}*/
 	
-	@RequestMapping("add")
+	/*@RequestMapping("add")
 	public String add(@RequestParam("num1")int i,@RequestParam("num2")int j , HttpSession session)
 	{
 		//Same as we can pass HttpServletRequest object in parameter we can do the same for HTTP SESSION.
@@ -39,6 +40,19 @@ public class HomeController {
 		int num3 = i + j;
 		session.setAttribute("num3", num3);
 		return "result.jsp";
+	}*/
+	
+	@RequestMapping("add")
+	public ModelAndView add(@RequestParam("num1")int i, @RequestParam("num2")int j)
+	{
+		System.out.println("Add Controller3 is called.");
+		ModelAndView mv = new ModelAndView();
+		//Use ModelAndView to eliminate the use of HttpSession. Set view and model data in one go.
+		mv.setViewName("result.jsp");
+		//View set. or ModelAndView mv = new ModelAndView("result.jsp"); -- Can be passed in Parameter itself.
+		int num3 = i + j;
+		mv.addObject("num3", num3);//Model data object
+		return mv;
 	}
 
 }
