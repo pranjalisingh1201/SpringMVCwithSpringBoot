@@ -25,3 +25,14 @@ ModelAndView Implementations:
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/d42ade96-3f68-46d7-9f14-f38f6e017cd9)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/90402597-af16-4d12-aa9e-51965dd99f62)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/bf828345-d291-4c4c-a4c9-ac9b1712a896)
+
+
+Suffix and Prefix:
+
+To have flexibility in changing the type of the file and path.
+Remove the Hard-coded part from the view names, create a new views folder, and then Change properties in the application.properties file.
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/aabcf2ee-d517-4e47-a4b7-aff4ee96eafa)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/af8de0e1-dc2c-444d-9340-3ede1a4ce981)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/ba1f5e9e-b43b-4dbc-bf3a-c862b1e1c836)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/c7a9d45f-18a9-43d3-a0b5-20a4e51471d5)
+
