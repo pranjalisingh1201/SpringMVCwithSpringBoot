@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -42,7 +43,7 @@ public class HomeController {
 		return "result.jsp";
 	}*/
 	
-	@RequestMapping("add")
+	/*@RequestMapping("add")
 	public ModelAndView add(@RequestParam("num1")int i, @RequestParam("num2")int j)
 	{
 		System.out.println("Add Controller3 is called.");
@@ -53,6 +54,16 @@ public class HomeController {
 		int num3 = i + j;
 		mv.addObject("num3", num3);//Model data object
 		return mv;
+	}*/
+	@RequestMapping("add")
+	public String add(@RequestParam("num1")int i, @RequestParam("num2")int j, Model m)
+	{
+		System.out.println("Add Controller4 is called.");
+		//Use Model when we don't know if the data will be used by the view or we can use ModelMap to arrange every data in the form of MAP.
+		int num3 = i + j;
+		m.addAttribute("num3", num3);//Model data object
+		return "result";
 	}
+
 
 }
