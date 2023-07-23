@@ -54,4 +54,11 @@ Need Of Model Attribute :
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/57273f01-42ff-4d55-a841-a4e7574093e6)
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/3298b864-18e9-4e9b-871d-2c7ecce560b1)
 
+Using Model Attribute in Method Level:
+
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/6dbe6278-f48a-4fef-85f0-8dbe831a0adc)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/07f03b52-d587-41a0-88f0-1bd8c8d7e888)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/b1bcf69e-ffd4-4d26-b5c6-53f9c6a1254d)
+
+
 
