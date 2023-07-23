@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.springboot.model.Alien;
+
 @Controller
 public class HomeController {
 	@RequestMapping("/")
@@ -62,6 +64,17 @@ public class HomeController {
 		//Use Model when we don't know if the data will be used by the view or we can use ModelMap to arrange every data in the form of MAP.
 		int num3 = i + j;
 		m.addAttribute("num3", num3);//Model data object
+		return "result";
+	}
+	
+	@RequestMapping("addAlien")
+	public String addAlien(@RequestParam("aid")int aid, @RequestParam("aname")String aname, Model m)
+	{
+		System.out.println("Add Controller5 is called.");
+		Alien a = new Alien();
+		a.setAid(aid);
+		a.setAname(aname);
+		m.addAttribute("alien", a);//Model data object
 		return "result";
 	}
 

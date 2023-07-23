@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Addition is : ${num3}<!-- JSTL -->
+	<!--Addition is : ${num3}  --><!-- JSTL -->
+	Alien Data : ${alien}
 </body>
 </html>
