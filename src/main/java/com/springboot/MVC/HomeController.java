@@ -1,5 +1,8 @@
 package com.springboot.MVC;
 
+import java.util.Arrays;
+import java.util.List;
+
 import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -7,6 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -93,6 +97,21 @@ public class HomeController {
 		//Model Attribute adds data to alien object on its own and sets it as a model too , but if object name doesn't match then we can 
 		//change it by @ModelAttribute("alien") Alien a , or if we remove @ModelAttribute as a whole and Alien class matches name with alien.
 		return "result";
+	}
+	/*
+	 * @PostMapping is used for post methods.
+	 * @RequestMapping can do both get or post.
+	 * we can make changes in request mapping  but passing end-point name as value.
+	 * value="getAliens", method=RequestMethod.GET;
+	 * or value="getAliens", method=RequestMethod.POST;
+	 */
+	@GetMapping("getAliens")
+	public String getAlien(Model m)
+	{
+		System.out.println("Add Controller6 is called.");
+		List<Alien> aliens = Arrays.asList(new Alien(1,"Pranjali"), new Alien(2,"Abul")); 
+		m.addAttribute("aliens", aliens);
+		return "getAliens";
 	}
 
 }

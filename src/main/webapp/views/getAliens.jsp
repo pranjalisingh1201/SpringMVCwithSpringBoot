@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!--Addition is : ${num3}  --><!-- JSTL -->
-	Alien Data : ${alien}
-	Welcome back ${name}
+	<!--GET MAPPING--><!-- JSTL -->
+	${aliens}
+	LIST OF ALIENS
 </body>
 </html>
