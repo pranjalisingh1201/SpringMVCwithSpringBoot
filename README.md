@@ -61,4 +61,10 @@ Using Model Attribute in Method Level:
 ![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/b1bcf69e-ffd4-4d26-b5c6-53f9c6a1254d)
 
 
+Using GET and POST Methods in Spring Boot:
+
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/f1ba9670-7dc8-44e5-a582-36d90913c61f)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/b49c930a-6ead-4dc7-9711-83ff193e409f)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/50f9d0b7-1969-47ed-bba7-e005a8962cb0)
+![image](https://github.com/pranjalisingh1201/SpringMVCwithSpringBoot/assets/75729195/dc5af0c6-021d-4f37-b5e4-c24d2958b18e)
 
