@@ -1,4 +1,4 @@
-package com.springboot.MVC;
+package com.springboot;
 
 import java.util.Arrays;
 import java.util.List;
